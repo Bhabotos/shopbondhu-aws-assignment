@@ -86,9 +86,14 @@ The website was tested using the public IP address of the web server.
 
 ## 6. NAT Gateway Test
 
-The private EC2 instance was tested for outbound internet connectivity using package update commands.
+The private EC2 instance was tested for outbound internet connectivity through the NAT Gateway.
 
-The private backend server is not directly reachable from the public internet because it does not have a public IP address and is located in a private subnet.
+- `sudo apt update` — Successful
+- `curl -I https://google.com` — Successful
+- Private EC2 has no public IP address.
+- Outbound internet access is provided through the NAT Gateway.
+
+![NAT Gateway Test](11-backend-apt-update.png)
 
 ## 7. Troubleshooting Answers
 
