@@ -23,7 +23,34 @@ Architecture diagram will be added here.
 | Private Route Table | shopbondhu-private-rt | — | Associated with private subnet |
 | Public EC2 | shopbondhu-web | 10.0.1.246 | Public web server |
 | Private EC2 | shopbondhu-private-ec2 | 10.0.2.25 | Private backend server |
+## Screenshots
 
+### 1. VPC Configuration
+![VPC Configuration](01_vpc.png)
+
+### 2. Public and Private Subnets
+![Subnets](02_subnet.png)
+
+### 3. Route Tables
+![Route Tables](03_Route%20Table.png)
+
+### 4. Internet Gateway
+![Internet Gateway](04_Internet%20Gateway.png)
+
+### 5. NAT Gateway
+![NAT Gateway](05_Nat%20Gateway.png)
+
+### 6. EC2 Instances
+![EC2 Instances](06_EC2%20Instances.png)
+
+### 7. Nginx Website
+![Nginx Website](07_Nginx%20website.png)
+
+### 8. Private EC2 SSH Connection
+![Private EC2 SSH](08_Private%20EC2%20SSH%20Connection.png)
+
+### 9. Private EC2 Nginx Test
+![Private EC2 Nginx Test](09_Private%20EC2%20Nginx%20test.png)
 ## 4. Step-by-Step Setup
 
 ### Task 1: Create VPC
