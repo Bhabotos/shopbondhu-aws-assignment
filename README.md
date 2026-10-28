@@ -8,7 +8,7 @@ This project demonstrates how to build a custom AWS network using a VPC, public 
 
 ## 2. Architecture Diagram
 
-![ShopBondhu AWS Architecture](architecture.png)
+![ShopBondhu AWS Architecture](aws-architecture.png)
 
 ## 3. Resources Created
 
